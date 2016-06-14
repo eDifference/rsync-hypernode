@@ -1,0 +1,13 @@
+fs:
+  type: rsync
+  folders:
+    magento2:
+      host: data/web/magento2/
+      guest: /data/web/magento2/
+    nginx:
+      host: data/web/nginx/
+      guest: /data/web/nginx/
+php:
+  version: 7.0
+settings:
+  magento_ver: 2
